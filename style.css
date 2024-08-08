@@ -1,0 +1,18 @@
+.logo{
+    padding: 8px;
+    width: 42px;
+    height: 42px;
+
+}
+*{
+    text-decoration: none;
+
+}
+
+.daily-menu{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    background-color: aqua;
+    gap: 24px;
+}
+

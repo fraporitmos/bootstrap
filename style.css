@@ -2,17 +2,43 @@
     padding: 8px;
     width: 42px;
     height: 42px;
-
+    background-color: white;
+    border-radius: 50%;
 }
 *{
-    text-decoration: none;
+    text-decoration: none
+}
+
+.sign-up:hover{
+    background-color: #90C9F8;
+}
+
+.bg-primary{
+    background-color: #002d5a !important;
 
 }
 
-.daily-menu{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    background-color: aqua;
-    gap: 24px;
+.bg-dark{
+    background-color: #0f0025 !important;
+
 }
 
+.bg-warning{
+    background-color: #ffcb3d !important;
+
+}
+
+.btn-custom-1{
+    background-color: #ffffff !important;
+   color: #002d5a;
+   border: 1px solid #90C9F8;
+}
+
+.mt-12{
+ margin-top: 2em;
+}
+
+.bg-card{
+    background-color: #122940;
+
+}
